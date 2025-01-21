@@ -3,11 +3,9 @@
 # Author: EB Dickinson, NIH NLM, Computational Biology Branch
 # Date: Jan 16 2024 
 
-# welcome instruction for my script
-
+# python prune-gaps.pl <pfram.stk file> <output.txt> <gap 5' end tolerance> <gap 3' end tolerance> 
 # example usage
-# python prune-gaps.pl <pfram.stk file> -<output.txt> <gap 5' end tolerance> <gap 3' end tolerance> 
-
+# python prune-gaps.pl example.pfam.stk example.output.txt 0 1
 #----------------------
 
 '''  
